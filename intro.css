@@ -1,0 +1,13 @@
+li{
+    color: blue;
+    font-size: 25px;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+h3{
+    color: red;
+    font-variant: small-caps;
+}

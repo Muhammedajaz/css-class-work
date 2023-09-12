@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+#parent{
+    background-color: aqua;
+}
+
+.item1, .item2, .item3{
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    /* border: 2px solid blue; */
+    text-align: center;
+    float: left;
+}
+.item3{
+    float: right;
+}
+
+footer{
+    background-color: aqua;
+    clear: both;
+}

@@ -1,0 +1,29 @@
+.grid-container{
+    background-color: aqua;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 100px 100px;
+    /* grid-gap: 5px; */
+    /* grid-gap: 10px 50px ; */
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    /* justify-content: center; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+}
+
+.grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5, .grid-item6, .grid-item7, .grid-item8{
+    background-color: red;
+    border: 2px solid green;
+    font-size: 30px;
+    width: 100px;
+}
+
+.grid-item1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
